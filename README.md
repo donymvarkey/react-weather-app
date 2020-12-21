@@ -30,3 +30,7 @@ A weather application built using React. Uses [Bootstrap 4](https://getbootstrap
 ![Screenshot 1](https://i.imgur.com/qWvCpIR.png)
 
 ![Screenshot 2](https://i.imgur.com/cV0n8Il.png)
+
+### To Do
+
+ - [ ] Weather forcast
