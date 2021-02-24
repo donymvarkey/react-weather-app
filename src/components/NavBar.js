@@ -9,7 +9,7 @@ export default function NavBar(props) {
     }
     return (
         <div>
-            <nav className="navbar navbar-dark font-weight-bold justify-content-between">
+            <nav className="navbar navbar-dark font-weight-normal justify-content-between">
                 {/*  eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a className="navbar-brand">Weather App</a>
                 <form className="form-inline" onSubmit={handleSubmit} >
@@ -18,6 +18,7 @@ export default function NavBar(props) {
                         type="search" placeholder="Search Location" 
                         onChange={handleChange} 
                     />
+                    <button className="btn btn-light">Search</button>
                 </form>
             </nav>
         </div>

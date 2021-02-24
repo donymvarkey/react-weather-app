@@ -2,8 +2,8 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-  font-family:Nunito;
-  color:#000;
+  font-family: Poppins;
+  /* color:#000; */
 }
 
 .form-control:focus {
@@ -19,7 +19,7 @@
 }
 
 .navbar {
-  background-color: transparent !important;
+  background-color: #333 !important;
 }
 
 .link {
@@ -29,4 +29,9 @@
 .day-night {
   width: 10em;
   height: 10em;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 0px #c3c3c3;
 }
